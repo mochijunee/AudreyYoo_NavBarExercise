@@ -1,0 +1,32 @@
+/* Nav Bar Styling */
+ul {
+    width: auto;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+/* Screen Styling */
+@media screen and (min-width: 769px) {
+  ul {
+    padding: 1rem 0px;
+    justify-content: right;
+  }
+  ul li {
+    font-size: 1.5em;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    padding: 1rem 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+  ul li {
+    padding: 0.5rem 0px 0.5rem 0px;
+    font-size: 1.5em;
+  }
+}
